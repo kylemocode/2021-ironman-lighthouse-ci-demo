@@ -1,16 +1,9 @@
-import React, { useState, useLayoutEffect } from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   const [count, setCount] = useState(0);
-
-  useLayoutEffect(() => {
-    let count = 0;
-    for (let i = 0; i < 10000000; i++) {
-      count++;
-    }
-  }, []);
 
   return (
     <div className='App'>
