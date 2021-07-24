@@ -5,11 +5,11 @@
       "assertions": {
         "categories:performance": [
           "warn",
-          { "aggregationMethod": "optimistic", "minScore": 0.7 }
+          { "aggregationMethod": "optimistic", "minScore": 0.95 }
         ],
         "categories:accessibility": [
           "warn",
-          { "aggregationMethod": "optimistic", "minScore": 0.9 }
+          { "aggregationMethod": "optimistic", "minScore": 0.95 }
         ]
       }
     }
